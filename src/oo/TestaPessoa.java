@@ -10,5 +10,14 @@ public class TestaPessoa {
         fulano.peso = 80.5;
         System.out.printf("%s tem %d anos e pesa %.2f kg!\n",
                 fulano.nome, fulano.idade, fulano.peso);
+
+        System.out.println("====================");
+        // Cria objeto herculano a partir da classe Pessoa
+        Pessoa herculano = new Pessoa();
+        herculano.nome = "Herculano De Biasi";
+        herculano.idade = 51;
+        herculano.peso = 110;
+        System.out.printf("%s tem %d anos e pesa %.2f kg!\n",
+                herculano.nome, herculano.idade, herculano.peso);
     }
 }
